@@ -4,6 +4,9 @@
 Google翻訳を使用して翻訳した後に自分でチェックして修正しています。
 翻訳時のバージョンは [v8.0.1-beta](https://github.com/Azure/azure-sdk-for-go/tree/v8.0.1-beta) です。
 
+**リンクについて:** 
+【本リポジトリーの○○に遷移】と記述されているリンクは本リポジトリー内に、何も記述されていないリンクはオリジナルの通り外部および [Azure/azure-sdk-for-go](https://github.com/Azure/azure-sdk-for-go) に遷移します。
+
 # Microsoft Azure SDK for Go
 
 このプロジェクトはMicrosoft Azure REST APIの操作を実行するためのさまざまなGoパッケージを提供します。
@@ -19,73 +22,73 @@ Google翻訳を使用して翻訳した後に自分でチェックして修正�
 
 ## Azure リソース マネージャー (ARM)
 
-[ARMについて](/arm/README.md)
+[ARMについて](/arm/README.md)【本リポジトリーの/arm/README.mdに遷移】
 
-- [analysisservices](/arm/analysisservices)
-- [authorization](/arm/authorization)
-- [batch](/arm/batch)
-- [cdn](/arm/cdn)
-- [cognitiveservices](/arm/cognitiveservices)
-- [commerce](/arm/commerce)
-- [compute](/arm/compute)
-- [containerregistry](/arm/containerregistry)
-- [containerservice](/arm/containerservice)
-- [datalake-analytics/account](/arm/datalake-analytics/account)
-- [datalake-store/account](/arm/datalake-store/account)
-- [devtestlabs](/arm/devtestlabs)
-- [dns](/arm/dns)
-- [documentdb](/arm/documentdb)
-- [eventhub](/arm/eventhub)
-- [intune](/arm/intune)
-- [iothub](/arm/iothub)
-- [keyvault](/arm/keyvault)
-- [logic](/arm/logic)
-- [machinelearning/commitmentplans](/arm/machinelearning/commitmentplans)
-- [machinelearning/webservices](/arm/machinelearning/webservices)
-- [mediaservices](/arm/mediaservices)
-- [mobileengagement](/arm/mobileengagement)
-- [network](/arm/network)
-- [notificationhubs](/arm/notificationhubs)
-- [powerbiembedded](/arm/powerbiembedded)
-- [recoveryservices](/arm/recoveryservices)
-- [redis](/arm/redis)
-- [resources/features](/arm/resources/features)
-- [resources/links](/arm/resources/links)
-- [resources/locks](/arm/resources/locks)
-- [resources/policy](/arm/resources/policy)
-- [resources/resources](/arm/resources/resources)
-- [resources/subscriptions](/arm/resources/subscriptions)
-- [scheduler](/arm/scheduler)
-- [search](/arm/search)
-- [servermanagement](/arm/servermanagement)
-- [servicebus](/arm/servicebus)
-- [sql](/arm/sql)
-- [storage](/arm/storage)
-- [trafficmanager](/arm/trafficmanager)
-- [web](/arm/web)
+- [analysisservices](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/analysisservices)
+- [authorization](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/authorization)
+- [batch](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/batch)
+- [cdn](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/cdn)
+- [cognitiveservices](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/cognitiveservices)
+- [commerce](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/commerce)
+- [compute](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/compute)
+- [containerregistry](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/containerregistry)
+- [containerservice](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/containerservice)
+- [datalake-analytics/account](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/datalake-analytics/account)
+- [datalake-store/account](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/datalake-store/account)
+- [devtestlabs](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/devtestlabs)
+- [dns](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/dns)
+- [documentdb](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/documentdb)
+- [eventhub](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/eventhub)
+- [intune](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/intune)
+- [iothub](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/iothub)
+- [keyvault](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/keyvault)
+- [logic](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/logic)
+- [machinelearning/commitmentplans](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/machinelearning/commitmentplans)
+- [machinelearning/webservices](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/machinelearning/webservices)
+- [mediaservices](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/mediaservices)
+- [mobileengagement](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/mobileengagement)
+- [network](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/network)
+- [notificationhubs](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/notificationhubs)
+- [powerbiembedded](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/powerbiembedded)
+- [recoveryservices](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/recoveryservices)
+- [redis](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/redis)
+- [resources/features](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/resources/features)
+- [resources/links](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/resources/links)
+- [resources/locks](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/resources/locks)
+- [resources/policy](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/resources/policy)
+- [resources/resources](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/resources/resources)
+- [resources/subscriptions](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/resources/subscriptions)
+- [scheduler](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/scheduler)
+- [search](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/search)
+- [servermanagement](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/servermanagement)
+- [servicebus](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/servicebus)
+- [sql](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/sql)
+- [storage](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/storage)
+- [trafficmanager](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/trafficmanager)
+- [web](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/web)
 
 ## Azure サービス管理 (ASM)、いわゆるクラシック環境
 
-[ASMについて](/management/README.md)
+[ASMについて](/management/README.md)【本リポジトリーの/management/README.mdに遷移】
 
-- [affinitygroup](/management/affinitygroup)
-- [hostedservice](/management/hostedservice)
-- [location](/management/location)
-- [networksecuritygroup](/management/networksecuritygroup)
-- [osimage](/management/osimage)
-- [sql](/management/sql)
-- [storageservice](/management/storageservice)
-- [virtualmachine](/management/virtualmachine)
-- [virtualmachinedisk](/management/virtualmachinedisk)
-- [virtualmachineimage](/management/virtualmachineimage)
-- [virtualnetwork](/management/virtualnetwork)
-- [vmutils](/management/vmutils)
+- [affinitygroup](https://github.com/Azure/azure-sdk-for-go/blob/master/management/affinitygroup)
+- [hostedservice](https://github.com/Azure/azure-sdk-for-go/blob/master/management/hostedservice)
+- [location](https://github.com/Azure/azure-sdk-for-go/blob/master/management/location)
+- [networksecuritygroup](https://github.com/Azure/azure-sdk-for-go/blob/master/management/networksecuritygroup)
+- [osimage](https://github.com/Azure/azure-sdk-for-go/blob/master/management/osimage)
+- [sql](https://github.com/Azure/azure-sdk-for-go/blob/master/management/sql)
+- [storageservice](https://github.com/Azure/azure-sdk-for-go/blob/master/management/storageservice)
+- [virtualmachine](https://github.com/Azure/azure-sdk-for-go/blob/master/management/virtualmachine)
+- [virtualmachinedisk](https://github.com/Azure/azure-sdk-for-go/blob/master/management/virtualmachinedisk)
+- [virtualmachineimage](https://github.com/Azure/azure-sdk-for-go/blob/master/management/virtualmachineimage)
+- [virtualnetwork](https://github.com/Azure/azure-sdk-for-go/blob/master/management/virtualnetwork)
+- [vmutils](https://github.com/Azure/azure-sdk-for-go/blob/master/management/vmutils)
 
 ## Azure Storage SDK for Go
 
-[ストレージについて](/storage/README.md)
+[ストレージについて](/storage/README.md)【本リポジトリーの/storage/README.mdに遷移】
 
-- [storage](/storage)
+- [storage](https://github.com/Azure/azure-sdk-for-go/blob/master/storage)
 
 # インストール
 

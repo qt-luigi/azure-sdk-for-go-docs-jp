@@ -46,7 +46,7 @@ SDKの一部ではありますが、バージョン管理をより適切に制�
 * 複雑なケースの大多数を処理するための簡単な構成。
 * 既存のフレームワークとの統合が簡単で、チャンネルにうまくフィットし、ファンアウト/ファンインの設定をサポートしている。
 
-これらは一連の例で最もよく示されていて、すべては [examples](/arm/examples) サブフォルダーに含まれています。
+これらは一連の例で最もよく示されていて、すべては [examples](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/examples) サブフォルダーに含まれています。
 
 ## SDKはどのようにテストされているのか？
 
@@ -123,7 +123,7 @@ Azure Active Directoryのシニア プログラム マネージャーであるDu
 [autorest.RespondDecorator](https://godoc.org/github.com/Azure/go-autorest/autorest#RespondDecorator)
 を設定することで、より多くの制御が可能になります。
 詳細については、付属のサンプルファイル
-[check.go](/arm/examples/check/check.go)
+[check.go](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/examples/check/check.go)
 を参照してください。
 これらを介することで、発信要求を修正したり、着信応答を検査したり、予期しない待ち時間からサービスを保護する
 [サーキット ブレーカー](https://msdn.microsoft.com/library/dn589784.aspx)
@@ -142,7 +142,7 @@ DetailedErrorはオリジナルの
 
 ### 完全なソースコード
 
-この例の完全なソースコードは [check.go](/arm/examples/check/check.go) で見つけられます。
+この例の完全なソースコードは [check.go](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/examples/check/check.go) で見つけられます。
 
 1. [サービス プリンシパル](https://azure.microsoft.com/documentation/articles/resource-group-authenticate-service-principal-cli/) を作成します。 [認証](#first-a-sidenote-authentication-and-the-azure-resource-manager) にはテナントID、クライアントID、クライアント シークレットが必要で、それらを取得したらすぐに保持してください。
 2. 以下に記載されたいずれかの方法を使用してあなたのAzure サブスクリプションIDを取得してください:
@@ -203,7 +203,7 @@ HTTP [Retry-After](http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.
 
 ### 例の完全なソース
 
-作成されたアカウントの削除を含む詳細は、サンプルコードファイルの [create.go](/arm/examples/create/create.go) にあります。
+作成されたアカウントの削除を含む詳細は、サンプルコードファイルの [create.go](https://github.com/Azure/azure-sdk-for-go/blob/master/arm/examples/create/create.go) にあります。
 
 1. [サービス プリンシパル](https://azure.microsoft.com/documentation/articles/resource-group-authenticate-service-principal-cli/) を作成します。 [認証](#first-a-sidenote-authentication-and-the-azure-resource-manager) にはテナントID、クライアントID、クライアント シークレットが必要で、それらを取得したらすぐに保持してください。
 2. 以下に記載されたいずれかの方法を使用してあなたのAzureサブスクリプションIDを取得してください:
